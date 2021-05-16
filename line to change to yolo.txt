@@ -1,0 +1,4 @@
+python example.py --datasets VOC --img_path ./example/mixed/images/ --label ./example/mixed/xmls/ --convert_output_path ./example/mixed/yolos/ --img_type ".jpg" --manifest_path ./example/mixed/ --cls_list_file ./example/mixed/names.txt
+
+
+python example.py --datasets VOC --img_path ./example/mixed/New_folder/larvae_back_processing/ --label ./example/mixed/New_folder/back_xml/ --convert_output_path ./example/mixed/New_folder/back_yolo/ --img_type ".jpg" --manifest_path ./example/mixed/New_folder/ --cls_list_file ./example/mixed/names.txt
